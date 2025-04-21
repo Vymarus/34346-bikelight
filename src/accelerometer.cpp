@@ -1,6 +1,4 @@
 #include "accelerometer.h"
-#include <MPU6050.h>
-#include "Wire.h" // This library allows you to communicate with I2C devices.
 #ifndef DEBUG
 // #define DEBUG 0  // Uncomment to enable debug output
 #endif

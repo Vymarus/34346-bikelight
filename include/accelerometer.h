@@ -1,6 +1,8 @@
 #ifndef ACCELEROMETER_H
 #define ACCELEROMETER_H
 #include <Arduino.h>
+#include <MPU6050.h>
+#include "Wire.h" // This library allows you to communicate with I2C devices.
 
 class accelerometer
 {
