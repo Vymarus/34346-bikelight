@@ -73,7 +73,7 @@ void InitializeMPU6050() {
   mpu.setIntZeroMotionEnabled(DISABLED);
   mpu.setIntMotionEnabled(true);                        // Set interrupt motion to enabled
   mpu.setDHPFMode(0);
-  mpu.setMotionDetectionThreshold(uint8_t(4 / 2));      // Threshold in 2mg per LSB, so divide by 2 to show 500mg
+  mpu.setMotionDetectionThreshold(uint8_t(4 / 2));      // Threshold in 2mg per LSB, so divide by 2 to show 4mg
   mpu.setZeroMotionDetectionDuration(uint8_t(4 / 2));
   mpu.setMotionDetectionDuration(5);                   // LSB is 1 ms. Duration of movement before interrupt is called
   mpu.setZeroMotionDetectionDuration(20);
