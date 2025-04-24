@@ -449,7 +449,9 @@
     "pinned_footprint_libs": [
       "Personal_Library"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Personal_Library"
+    ]
   },
   "meta": {
     "filename": "BikeLight.kicad_pro",
