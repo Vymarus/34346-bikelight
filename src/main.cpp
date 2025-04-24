@@ -15,6 +15,8 @@ String mode_previous = "sleep";
 String location;
 unsigned long previousMillis = 0;
 
+accelerometer Accelerometer;
+
 // timer intervals in milliseconds 
 const unsigned long park_geolocate_interval = 5000;
 
@@ -26,7 +28,7 @@ void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);  // enable the internal pull-up resistor
   lastButtonState = digitalRead(BUTTON_PIN);
   button_pressed = false;
-  
+  Accelerometer.initialize();
 }
 
 void loop() {
@@ -34,7 +36,7 @@ void loop() {
   //check if button is pressed
   button_pressed = check_button_press(lastButtonState);
   //check if moving
-  is_moving = check_moving();
+  is_moving = Accelerometer.check_moving();
   // initiate actions based on mode
   if (mode == "active"){
     if(mode_previous != mode){
