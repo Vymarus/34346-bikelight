@@ -26,4 +26,5 @@
   (lib (name "00-kiml-switch-slide")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-switch-slide.pretty")(options "")(descr ""))
   (lib (name "00-kiml-switch-toggle")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-switch-toggle.pretty")(options "")(descr ""))
   (lib (name "00-kiml-unsorted")(type "KiCad")(uri "${KIML_ROOT}/footprints/00-kiml-unsorted.pretty")(options "")(descr ""))
+  (lib (name "Personal_Library")(type "KiCad")(uri "${KIPRJMOD}/Personal_Library.pretty")(options "")(descr ""))
 )
