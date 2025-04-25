@@ -3615,12 +3615,6 @@
 		(uuid "28c390be-3d04-479c-8bdc-6c49af2784ae")
 	)
 	(junction
-		(at 154.94 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "480ca2cc-6127-40a1-a7a0-78b2e14d19fd")
-	)
-	(junction
 		(at 115.57 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3631,12 +3625,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "903756a8-ffd7-4a58-acfc-eb661dca445a")
-	)
-	(junction
-		(at 154.94 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9374fc8c-26fb-4c04-9674-dc2bfee601cc")
 	)
 	(junction
 		(at 128.27 121.92)
@@ -3683,6 +3671,16 @@
 			(type default)
 		)
 		(uuid "0114f578-25c2-4152-ac4e-a4dfc4042f1a")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0533aaf9-ab5e-43fa-b302-4deb115f5910")
 	)
 	(wire
 		(pts
@@ -3733,16 +3731,6 @@
 			(type default)
 		)
 		(uuid "2132e6f1-f67d-4122-8ecb-1fe30cce6e57")
-	)
-	(wire
-		(pts
-			(xy 154.94 97.79) (xy 160.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23878c63-80c7-4c8e-9a37-8a0038874a63")
 	)
 	(wire
 		(pts
@@ -3846,6 +3834,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 86.36) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618e875c-d0b4-4ca8-b152-5dcd3159e183")
+	)
+	(wire
+		(pts
 			(xy 205.74 71.12) (xy 219.71 71.12)
 		)
 		(stroke
@@ -3856,7 +3854,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 154.94 97.79)
+			(xy 154.94 96.52) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3883,6 +3881,16 @@
 			(type default)
 		)
 		(uuid "6ca539e8-437a-4a36-94ed-fdea0f9a44af")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7796539a-defc-42d3-9c87-093b91958d8f")
 	)
 	(wire
 		(pts
@@ -3936,16 +3944,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 160.02 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89b2e58b-3485-4a39-8123-8d7ae5bc6e28")
-	)
-	(wire
-		(pts
 			(xy 80.01 160.02) (xy 95.25 160.02)
 		)
 		(stroke
@@ -3973,16 +3971,6 @@
 			(type default)
 		)
 		(uuid "947a1a39-4713-49a9-8a97-8758b2c71099")
-	)
-	(wire
-		(pts
-			(xy 154.94 97.79) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9524d3e2-38b4-469e-922e-03c63be637b9")
 	)
 	(wire
 		(pts
@@ -4156,6 +4144,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d283de67-6bd0-4dda-b207-ae1314f10b02")
+	)
+	(wire
+		(pts
 			(xy 113.03 160.02) (xy 118.11 160.02)
 		)
 		(stroke
@@ -4203,16 +4201,6 @@
 			(type default)
 		)
 		(uuid "e8138a9e-c73d-4640-9dad-de7e7b3f360c")
-	)
-	(wire
-		(pts
-			(xy 154.94 106.68) (xy 154.94 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26d9785-6197-48e3-bf4b-e254d16a1e2b")
 	)
 	(wire
 		(pts
@@ -4949,8 +4937,36 @@
 			"3vzUAQAAAAAAAAAAAAAAAAAAAACAPxi+x/zUAQAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAADw5If81AEAAODkh/zUAQAAsEHO/NQBAAAAAAAAAAAAAPDkh/zUAQAA4OSH/NQBAADQQc78"
 			"1AEAAAAAAAAAAAAAIAAAAG0CAAAAAAAAAAAAACgcAAAAAAAAAAABAAAAAABA98n81AEAAKoCAAAA"
-			"AAAAIK2q/NQBAAD/////AAD//wAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAIK2q/NQBAAD/////AAD//wAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
+	)
+	(label "MOSI"
+		(at 177.8 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e2db2af-d1db-4f6e-8c1a-aa4e3d63d60e")
 	)
 	(label "SDA"
 		(at 215.9 78.74 0)
@@ -4991,6 +5007,16 @@
 			(justify left bottom)
 		)
 		(uuid "abca755f-3533-4c1c-aa50-10dde1d7bb50")
+	)
+	(label "MISO"
+		(at 177.8 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acae3668-2910-4c8a-8822-1c4236afe265")
 	)
 	(label "SDA"
 		(at 118.11 162.56 180)
@@ -6493,7 +6519,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 106.68 0)
+		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6502,7 +6528,7 @@
 		(fields_autoplaced yes)
 		(uuid "58852bc4-6676-4c0b-a4bc-4aae909c25cf")
 		(property "Reference" "#PWR03"
-			(at 154.94 113.03 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 111.76 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +6545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 106.68 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +6554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 106.68 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 106.68 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6585,7 @@
 	)
 	(symbol
 		(lib_id "Personal_Library:RFID-RC522")
-		(at 185.42 118.11 0)
+		(at 203.2 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6567,7 +6593,7 @@
 		(dnp no)
 		(uuid "604d63d8-630f-4a79-975f-1c60fd40cbe0")
 		(property "Reference" "U7"
-			(at 185.674 119.38 0)
+			(at 203.454 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6602,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 201.93 133.35 0)
+			(at 219.71 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 118.11 0)
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 118.11 0)
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 118.11 0)
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,149 +7639,6 @@
 			(project "BikeLight"
 				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00-kiml-capacitors-smd:100n_0603_TCC0603X7R104K500CT")
-		(at 160.02 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5ee2482-b9d7-4efb-8671-2b83f751226e")
-		(property "Reference" "C4"
-			(at 163.83 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n_0603_TCC0603X7R104K500CT"
-			(at 144.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810181652_CCTC-TCC0603X7R104K500CT_C282519.pdf"
-			(at 160.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC"
-			(at 160.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UserValue" "100n"
-			(at 163.83 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "MFR" "CCTC"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0603X7R104K500CT"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPL1" "LCSC"
-			(at 160.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN1" "C307331"
-			(at 160.02 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LNK1" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0603X7R104K500CT_C282519.html"
-			(at 159.385 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 160.02 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "50V"
-			(at 160.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cd8e5a5-88ce-4b8b-ab77-4a5dd5b21f2c")
-		)
-		(pin "2"
-			(uuid "303f7ffb-ae4e-4f03-bf43-180ed08db362")
-		)
-		(instances
-			(project ""
-				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
-					(reference "C4")
 					(unit 1)
 				)
 			)
