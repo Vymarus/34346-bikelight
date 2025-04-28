@@ -450,7 +450,8 @@
       "Personal_Library"
     ],
     "pinned_symbol_libs": [
-      "Personal_Library"
+      "Personal_Library",
+      "00-kiml-optical"
     ]
   },
   "meta": {
