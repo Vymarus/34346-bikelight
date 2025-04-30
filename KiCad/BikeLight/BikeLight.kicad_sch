@@ -7755,7 +7755,13 @@
 		(at 72.39 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c97db55f-8e0e-489c-9e67-e93031aef333")
+		(uuid "bbe7b40c-cc78-4e30-b9d9-33a232594004")
+	)
+	(junction
+		(at 80.01 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb328dbc-541e-4d6f-9bc5-1908bb29a3cb")
 	)
 	(junction
 		(at 256.54 30.48)
@@ -7788,12 +7794,6 @@
 		(uuid "e2901af3-1699-4d92-8fae-2feccc9d72e2")
 	)
 	(junction
-		(at 80.01 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5dbd1ed-b94e-435e-8e6d-ab97904213ef")
-	)
-	(junction
 		(at 154.94 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7816,10 +7816,6 @@
 		(uuid "0387e14a-d253-41ee-8c27-a1083f6f3ff4")
 	)
 	(no_connect
-		(at 219.71 77.47)
-		(uuid "102ff22e-7406-4541-8118-4ff8114e25fa")
-	)
-	(no_connect
 		(at 132.08 78.74)
 		(uuid "4430f748-0457-4380-b482-44c3f93d3caa")
 	)
@@ -7830,10 +7826,6 @@
 	(no_connect
 		(at 181.61 83.82)
 		(uuid "5b3c95ed-5515-43a4-853d-4405a1742c3d")
-	)
-	(no_connect
-		(at 137.16 88.9)
-		(uuid "847e7696-ebcf-4b54-a7e5-b11ecdfdc708")
 	)
 	(no_connect
 		(at 190.5 121.92)
@@ -7870,10 +7862,6 @@
 	(no_connect
 		(at 181.61 86.36)
 		(uuid "d3933066-457a-4011-b692-c8a5cc4a57fe")
-	)
-	(no_connect
-		(at 219.71 80.01)
-		(uuid "e834315d-cd54-4ff7-838a-3671f91e43f7")
 	)
 	(no_connect
 		(at 181.61 76.2)
@@ -8378,6 +8366,16 @@
 			(type default)
 		)
 		(uuid "432dace7-21ec-4504-ab48-16c5996de030")
+	)
+	(wire
+		(pts
+			(xy 218.44 77.47) (xy 219.71 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447c74d6-6388-4d0f-8580-078254f623d2")
 	)
 	(wire
 		(pts
@@ -9111,6 +9109,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 77.47) (xy 210.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2438102-91f3-4a8a-b262-6014cf078248")
+	)
+	(wire
+		(pts
 			(xy 190.5 119.38) (xy 200.66 119.38)
 		)
 		(stroke
@@ -9281,6 +9289,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 80.01) (xy 210.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0dabea-0fe6-4695-b1fd-2e78fd2981d1")
+	)
+	(wire
+		(pts
 			(xy 128.27 119.38) (xy 128.27 121.92)
 		)
 		(stroke
@@ -9288,6 +9306,16 @@
 			(type default)
 		)
 		(uuid "e073cb84-1aa6-4b97-95d0-00826f85d437")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f08525-f8cf-4024-92b0-f7d0ce8cb944")
 	)
 	(wire
 		(pts
@@ -9358,6 +9386,16 @@
 			(type default)
 		)
 		(uuid "f3533ef0-11e7-46a1-babd-19db03914518")
+	)
+	(wire
+		(pts
+			(xy 218.44 80.01) (xy 219.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8eda444-beec-4a11-b83c-0f769d2cebfb")
 	)
 	(wire
 		(pts
@@ -10138,6 +10176,42 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -10161,6 +10235,16 @@
 		)
 		(uuid "0b0a91d7-14c7-419c-a8b5-67f851b3be58")
 	)
+	(label "ACC_INT"
+		(at 127 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10686b06-9732-49f8-bfaa-e84fecf61638")
+	)
 	(label "USB_DN"
 		(at 127 83.82 0)
 		(effects
@@ -10180,6 +10264,16 @@
 			(justify right bottom)
 		)
 		(uuid "2e2db2af-d1db-4f6e-8c1a-aa4e3d63d60e")
+	)
+	(label "SCL"
+		(at 207.01 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40858d6b-2591-48b5-bf27-469df6085753")
 	)
 	(label "SCL"
 		(at 186.69 124.46 0)
@@ -10360,6 +10454,16 @@
 			(justify left bottom)
 		)
 		(uuid "db549eeb-1109-496e-9107-f8b638a79f10")
+	)
+	(label "SDA"
+		(at 207.01 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e559c687-b39b-43db-af58-a5264abf554a")
 	)
 	(label "SDA"
 		(at 177.8 71.12 180)
@@ -13250,7 +13354,7 @@
 		(dnp no)
 		(uuid "4b05982c-7976-40b8-b021-7ecb9fc99956")
 		(property "Reference" "R15"
-			(at 212.852 80.518 90)
+			(at 218.948 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +14052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Personal_Library:RFID_RC522"
 			(at 203.2 111.76 0)
 			(effects
 				(font
@@ -14213,6 +14317,127 @@
 			(project "BikeLight"
 				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00-kiml-resistors-smd:0R_0603_0603WAF0000T5E")
+		(at 214.63 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "692e65c5-92ed-4c2d-806f-e716fa0758ea")
+		(property "Reference" "R22"
+			(at 218.948 76.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R_0603_0603WAF0000T5E"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±1% -55℃~+155℃ 0Ω 0603 Chip Resistor"
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "0R"
+			(at 214.63 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "UNI-ROYAL"
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "C21189"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "JLCPCB"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
+			(at 234.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1496e17b-08ef-46d9-85a8-8052bd824fac")
+		)
+		(pin "1"
+			(uuid "7d101e49-0442-4279-ae6b-c8b0fba87cce")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15219,7 +15444,7 @@
 	)
 	(symbol
 		(lib_id "00-kiml-resistors-smd:0R_0603_0603WAF0000T5E")
-		(at 90.17 180.34 270)
+		(at 90.17 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15235,7 +15460,7 @@
 			)
 		)
 		(property "Value" "0R_0603_0603WAF0000T5E"
-			(at 113.03 180.34 0)
+			(at 67.31 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15244,7 +15469,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.84 180.34 0)
+			(at 63.5 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15253,7 +15478,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
-			(at 123.19 177.8 0)
+			(at 57.15 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15279,7 +15504,7 @@
 			)
 		)
 		(property "MFR" "UNI-ROYAL"
-			(at 120.65 180.34 0)
+			(at 59.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15288,7 +15513,7 @@
 			)
 		)
 		(property "MPN" "0603WAF0000T5E"
-			(at 110.49 180.34 0)
+			(at 69.85 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15297,7 +15522,7 @@
 			)
 		)
 		(property "SPL1" "C21189"
-			(at 72.39 180.34 0)
+			(at 107.95 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15306,7 +15531,7 @@
 			)
 		)
 		(property "SPN1" "JLCPCB"
-			(at 74.93 180.34 0)
+			(at 105.41 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,7 +15540,7 @@
 			)
 		)
 		(property "LNK1" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
-			(at 69.85 184.15 0)
+			(at 110.49 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15836,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "966cd07d-509b-4f12-ac64-11ca5b9e68fc")
 		(property "Reference" "U2"
@@ -17242,6 +17467,127 @@
 		)
 	)
 	(symbol
+		(lib_id "00-kiml-resistors-smd:0R_0603_0603WAF0000T5E")
+		(at 214.63 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d01b2835-cda8-4cdb-95b4-2c270a868461")
+		(property "Reference" "R21"
+			(at 218.948 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R_0603_0603WAF0000T5E"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±1% -55℃~+155℃ 0Ω 0603 Chip Resistor"
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "0R"
+			(at 214.63 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "UNI-ROYAL"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "C21189"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "JLCPCB"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3cca3a4-aa8a-47f0-b716-b6d302475ecd")
+		)
+		(pin "1"
+			(uuid "1b8e2bee-6787-4fcf-8c6b-db05e22d4c26")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 87.63 148.59 0)
 		(unit 1)
@@ -18577,7 +18923,7 @@
 	)
 	(symbol
 		(lib_id "00-kiml-diode:1N5819WS")
-		(at 76.2 45.72 0)
+		(at 76.2 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18586,7 +18932,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8c457ab-b9b5-4bee-8239-705beec6c79d")
 		(property "Reference" "D2"
-			(at 75.8825 39.37 0)
+			(at 76.5175 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18594,7 +18940,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 75.8825 41.91 0)
+			(at 76.5175 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18602,7 +18948,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 76.2 50.165 0)
+			(at 76.2 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18611,7 +18957,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 76.2 39.37 0)
+			(at 76.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18629,42 +18975,6 @@
 			)
 		)
 		(property "MFR" "Guangdong"
-			(at 76.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1N5819WS"
-			(at 76.2 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPL1" "JLCPCB"
-			(at 76.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN1" "C191023"
-			(at 76.2 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LNK1" "https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -18673,8 +18983,44 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N5819WS"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C191023"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "SNB1" "Basic Part"
-			(at 76.2 62.23 0)
+			(at 76.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18689,7 +19035,7 @@
 			(uuid "5d989fe8-a760-4340-9042-c6c31bfe0d0f")
 		)
 		(instances
-			(project ""
+			(project "BikeLight"
 				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
 					(reference "D2")
 					(unit 1)
@@ -18707,7 +19053,7 @@
 		(dnp no)
 		(uuid "e9147d32-d8c1-4771-a724-4cabca67d884")
 		(property "Reference" "R16"
-			(at 212.598 87.122 90)
+			(at 218.948 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
