@@ -644,6 +644,46 @@
     [
       "bc4a3ac7-23ef-4452-9888-c2aa5f8e2382",
       "Root"
+    ],
+    [
+      "2e59b1bd-6d7e-4095-802b-ce8c175ab9e2",
+      "Charger"
+    ],
+    [
+      "e50c9b36-2257-45ed-9cb7-4301bc3bc384",
+      "Solar Boost"
+    ],
+    [
+      "484819c7-b5d6-40e2-b137-5e27a0d7a21c",
+      "Power Supply"
+    ],
+    [
+      "6bbc0add-5b7e-4fa2-888e-8d0af9c23bd6",
+      "Fuel Gauge"
+    ],
+    [
+      "421b6488-9548-4251-80fe-9a3acec602a2",
+      "Accelerometer"
+    ],
+    [
+      "3c122922-0edb-4366-a1a3-ae617dd04bf6",
+      "RFID"
+    ],
+    [
+      "afb90a27-4c82-46cd-a4b4-5563ab566451",
+      "GPIO-extender"
+    ],
+    [
+      "2d393824-d3b1-420a-8ed4-5edf08f46dff",
+      "USB Programing"
+    ],
+    [
+      "69f618ae-5d9f-477e-bc7f-4fb9b675dee1",
+      "MCU"
+    ],
+    [
+      "f1c933b9-0928-4174-8e0c-70ca48de4262",
+      "Light and buzzer"
     ]
   ],
   "text_variables": {}
