@@ -8899,10 +8899,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Vin: 3V3\nPower Consumption: 200mA\nBus Capacitance: "
+	(text_box "Vin: 3V3\nPower Consumption: 170mA MAX"
 		(exclude_from_sim no)
-		(at 102.87 273.05 0)
-		(size 30.48 7.62)
+		(at 102.87 275.59 0)
+		(size 34.29 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8919,7 +8919,7 @@
 		)
 		(uuid "0408d8da-e385-4f38-b9a6-eb9260b39d23")
 	)
-	(text_box "Vin: Battery\nPower Consumption: 200mA\nBus Capacitance: "
+	(text_box "Vin: Battery\nPower Consumption: 20mA\nBus Capacitance: 120pF"
 		(exclude_from_sim no)
 		(at 15.24 207.01 0)
 		(size 30.48 7.62)
@@ -8959,7 +8959,7 @@
 		)
 		(uuid "33de75d2-2aa6-4dfd-8bcc-8e7db6c653ce")
 	)
-	(text_box "Vin: 3V3\nPower Consumption: 200mA\nBus Capacitance: "
+	(text_box "Vin: 3V3\nPower Consumption: 2mA\nBus Capacitance: 12pF"
 		(exclude_from_sim no)
 		(at 180.34 273.05 0)
 		(size 30.48 7.62)
@@ -9040,10 +9040,10 @@
 		)
 		(uuid "6200389a-bdb2-46be-930e-d231dd4a0df2")
 	)
-	(text_box "Power protection amount voltage\n\nWhat if solar and USB is charging at the same time?"
+	(text_box "Power Protection\n\nWith USB and Solar, Shotchkey should protect Solar from the USB, and the solar shouldn't add up the voltage"
 		(exclude_from_sim no)
-		(at 62.23 55.88 0)
-		(size 25.4 12.7)
+		(at 69.85 57.15 0)
+		(size 25.4 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -9141,7 +9141,27 @@
 		)
 		(uuid "949c377d-ee4a-4ac9-b206-7ac83b08c045")
 	)
-	(text_box "Vin: 3V3\nPower Consumption: 200mA\nBus Capacitance: "
+	(text_box "Can GPIO used for IRQ and sleep?"
+		(exclude_from_sim no)
+		(at 199.39 146.05 0)
+		(size 20.32 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a4def29d-831d-4f5a-b669-95ffe9211a53")
+	)
+	(text_box "Vin: 3V3\nPower Consumption: 5mA\nBus Capacitance: 20pF"
 		(exclude_from_sim no)
 		(at 15.24 273.05 0)
 		(size 30.48 7.62)
@@ -9161,7 +9181,7 @@
 		)
 		(uuid "a4e40680-081c-4920-b0f9-946709b4134d")
 	)
-	(text_box "Charger Voltage: 5V\nVin: 4-8V\nCharging current: 1A\nCharging CutOff: 4.2V\nOutput: 5V?"
+	(text_box "Charger Voltage: 5V\nVin: 4-8V\nCharging current: 1A\nCharging CutOff: 4.2V\nDischarging CutOff: 2.4V\nOutput: 2.75-4.2V"
 		(exclude_from_sim no)
 		(at 15.24 58.42 0)
 		(size 34.29 16.51)
@@ -9253,7 +9273,7 @@
 		(uuid "221d4409-a208-4a27-8060-2c828e9800e7")
 	)
 	(junction
-		(at 194.31 120.65)
+		(at 190.5 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d5411f-000a-466a-b011-24562896752f")
@@ -9301,10 +9321,22 @@
 		(uuid "538211e5-b855-4111-a6ff-9e6b1bb96bdb")
 	)
 	(junction
+		(at 294.64 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aa52245-4578-4eec-a688-edf3ad6bde4d")
+	)
+	(junction
 		(at 52.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b384cc4-a171-49a6-9248-146dd922ef1d")
+	)
+	(junction
+		(at 205.74 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fcd6ff8-20ed-4319-b19b-0e498fd4f959")
 	)
 	(junction
 		(at 374.65 33.02)
@@ -9325,7 +9357,7 @@
 		(uuid "8b16d335-143d-4e54-b635-c891d3685d95")
 	)
 	(junction
-		(at 179.07 120.65)
+		(at 175.26 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "903756a8-ffd7-4a58-acfc-eb661dca445a")
@@ -9353,6 +9385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb328dbc-541e-4d6f-9bc5-1908bb29a3cb")
+	)
+	(junction
+		(at 279.4 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb99f3b1-c8dd-4d46-a4d3-c774df04aa1d")
 	)
 	(junction
 		(at 273.05 31.75)
@@ -9440,7 +9478,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 120.65) (xy 194.31 120.65)
+			(xy 187.96 135.89) (xy 190.5 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9470,13 +9508,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 135.89) (xy 194.31 135.89)
+			(xy 186.69 151.13) (xy 190.5 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0114f578-25c2-4152-ac4e-a4dfc4042f1a")
+	)
+	(wire
+		(pts
+			(xy 205.74 135.89) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b1353d-da8d-4a25-9239-cbeb34aad00d")
 	)
 	(wire
 		(pts
@@ -9570,7 +9618,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 120.65) (xy 179.07 120.65)
+			(xy 166.37 135.89) (xy 175.26 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9620,7 +9668,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 120.65) (xy 181.61 120.65)
+			(xy 255.27 144.78) (xy 255.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdcc371-c876-4fd2-80d0-80d47999bcff")
+	)
+	(wire
+		(pts
+			(xy 175.26 135.89) (xy 177.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9820,7 +9878,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 132.08) (xy 179.07 135.89)
+			(xy 175.26 147.32) (xy 175.26 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9927,6 +9985,16 @@
 			(type default)
 		)
 		(uuid "3bcf7295-4552-431d-9d34-02360943f60a")
+	)
+	(wire
+		(pts
+			(xy 208.28 120.65) (xy 215.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2695d8-b956-4985-96f2-eba76843baf9")
 	)
 	(wire
 		(pts
@@ -10100,6 +10168,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 135.89) (xy 251.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50136702-0e37-4b97-a20e-04dd612e25ee")
+	)
+	(wire
+		(pts
 			(xy 270.51 33.02) (xy 273.05 33.02)
 		)
 		(stroke
@@ -10150,6 +10228,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 144.78) (xy 294.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e3d173-342d-4562-91ca-45f6dcf9d852")
+	)
+	(wire
+		(pts
 			(xy 273.05 30.48) (xy 273.05 31.75)
 		)
 		(stroke
@@ -10180,16 +10268,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 120.65) (xy 215.9 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6308f875-17d8-41f3-ae47-93739bdfbb21")
-	)
-	(wire
-		(pts
 			(xy 38.1 233.68) (xy 52.07 233.68)
 		)
 		(stroke
@@ -10197,6 +10275,16 @@
 			(type default)
 		)
 		(uuid "63bb4dc4-ee3b-4d9f-9414-b565229a90cd")
+	)
+	(wire
+		(pts
+			(xy 255.27 144.78) (xy 279.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6555bf51-cf78-4fb5-91b8-f4f3fb0c76e4")
 	)
 	(wire
 		(pts
@@ -10230,6 +10318,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 156.21) (xy 294.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2266dc-a1cc-433c-add1-d8da1b2b5989")
+	)
+	(wire
+		(pts
 			(xy 271.78 115.57) (xy 271.78 118.11)
 		)
 		(stroke
@@ -10257,6 +10355,16 @@
 			(type default)
 		)
 		(uuid "6b3002c5-d1bd-4c0c-932d-925e7438c57f")
+	)
+	(wire
+		(pts
+			(xy 294.64 144.78) (xy 292.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b37aaf8-cea8-4c60-9f3e-7887db34cf9b")
 	)
 	(wire
 		(pts
@@ -10330,6 +10438,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 144.78) (xy 294.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f9b378-0881-4c3f-81c6-2f11877c4689")
+	)
+	(wire
+		(pts
 			(xy 205.74 128.27) (xy 215.9 128.27)
 		)
 		(stroke
@@ -10337,16 +10455,6 @@
 			(type default)
 		)
 		(uuid "7604b2f6-2c65-481e-9a30-48ab70055812")
-	)
-	(wire
-		(pts
-			(xy 205.74 135.89) (xy 215.9 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7722c50e-1657-4889-836c-18873e07aca0")
 	)
 	(wire
 		(pts
@@ -10510,7 +10618,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 135.89) (xy 194.31 120.65)
+			(xy 62.23 34.29) (xy 62.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93aa1feb-e15d-4d5a-818d-e972aaf4d4fc")
+	)
+	(wire
+		(pts
+			(xy 190.5 151.13) (xy 190.5 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10660,6 +10778,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 144.78) (xy 279.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b1082b-fc7f-41de-a6b4-05bb746e9638")
+	)
+	(wire
+		(pts
 			(xy 111.76 241.3) (xy 128.27 241.3)
 		)
 		(stroke
@@ -10740,7 +10868,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 135.89) (xy 182.88 135.89)
+			(xy 175.26 151.13) (xy 179.07 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10770,7 +10898,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 120.65) (xy 179.07 124.46)
+			(xy 175.26 135.89) (xy 175.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10880,6 +11008,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 160.02) (xy 290.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c137bdb4-98e0-4bda-975c-3e46836f72bf")
+	)
+	(wire
+		(pts
 			(xy 39.37 238.76) (xy 43.18 238.76)
 		)
 		(stroke
@@ -10890,7 +11028,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 120.65) (xy 170.18 135.89)
+			(xy 166.37 135.89) (xy 166.37 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10940,7 +11078,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 120.65) (xy 198.12 120.65)
+			(xy 190.5 135.89) (xy 194.31 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11007,6 +11145,26 @@
 			(type default)
 		)
 		(uuid "d86481ef-2040-40c8-8835-0314718c463a")
+	)
+	(wire
+		(pts
+			(xy 284.48 118.11) (xy 271.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d969dc1d-923b-4bed-81d1-957092b083dc")
+	)
+	(wire
+		(pts
+			(xy 303.53 144.78) (xy 303.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da17a9c4-853d-4865-ba20-56dbed9cea6e")
 	)
 	(wire
 		(pts
@@ -11080,16 +11238,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 133.35) (xy 215.9 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f08525-f8cf-4024-92b0-f7d0ce8cb944")
-	)
-	(wire
-		(pts
 			(xy 69.85 184.15) (xy 69.85 189.23)
 		)
 		(stroke
@@ -11110,6 +11258,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 35.56) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36eaea4-d73b-4d54-ae30-eb8a2f9ac46b")
+	)
+	(wire
+		(pts
+			(xy 201.93 135.89) (xy 205.74 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3873cf0-6491-481a-a193-eea091a4d27d")
+	)
+	(wire
+		(pts
 			(xy 69.85 176.53) (xy 64.77 176.53)
 		)
 		(stroke
@@ -11127,6 +11295,16 @@
 			(type default)
 		)
 		(uuid "ecd03b72-3905-4b16-b3a0-37ab73389714")
+	)
+	(wire
+		(pts
+			(xy 205.74 135.89) (xy 215.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda045d7-379a-4804-b448-f2c53d00a0d9")
 	)
 	(wire
 		(pts
@@ -11157,6 +11335,26 @@
 			(type default)
 		)
 		(uuid "f3533ef0-11e7-46a1-babd-19db03914518")
+	)
+	(wire
+		(pts
+			(xy 283.21 160.02) (xy 279.4 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b285c7-f606-4660-8702-305937f98517")
+	)
+	(wire
+		(pts
+			(xy 279.4 160.02) (xy 279.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f710f976-46bb-4417-9c4b-6b494aaf6731")
 	)
 	(wire
 		(pts
@@ -12037,7 +12235,25 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjp3qcwAQAIBQQiivBwIAAFBCKK8HAgAAUEIo"
 			"rwcCAAABAWUAbgBpAHgAXwBNAEMAOgBQAGgAbwBlAG4AaQB4AEMAbwBuAHQAYQBjAHQAXwBNAEMA"
 			"XwAxACwANQBfADIALQBHAC0AMwAuADgAMQBfADEAeAAwADIAXwBQADMALgA4ADEAbQBtAF8ASABv"
-			"AHIAaQB6AG8AbgB0AGEAbAAAAAAAAAAAAAAAAAAAAAAAAACFneFzABEAgABDKK8HAg=="
+			"AHIAaQB6AG8AbgB0AGEAbAAAAAAAAAAAAAAAAAAAAAAAAACFneFzABEAgABDKK8HAgAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "IRQ"
@@ -12141,7 +12357,7 @@
 		(uuid "500fd48f-402c-49b3-ad83-8521d5ac1998")
 	)
 	(label "RF_NSS"
-		(at 205.74 133.35 0)
+		(at 205.74 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12290,7 +12506,7 @@
 		)
 		(uuid "ace8edb0-4076-4f29-8aff-74d6ab026b0b")
 	)
-	(label "BUSSER"
+	(label "BUZZER"
 		(at 307.34 38.1 0)
 		(effects
 			(font
@@ -12370,6 +12586,16 @@
 		)
 		(uuid "e7cde7cb-1425-4801-9d34-9ce3dd992357")
 	)
+	(label "BUZZER"
+		(at 284.48 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecda49d6-e591-427a-9076-a0a239f8dbf6")
+	)
 	(label "SX_MISO"
 		(at 111.76 243.84 0)
 		(effects
@@ -12389,6 +12615,16 @@
 			(justify left bottom)
 		)
 		(uuid "f7413843-89b1-428b-92ab-15d737f8b30d")
+	)
+	(label "LED"
+		(at 208.28 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78e0f59-85c2-4461-9b8f-ec7772bf7d95")
 	)
 	(label "SCL"
 		(at 256.54 113.03 180)
@@ -12468,7 +12704,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 135.89 0)
+		(at 166.37 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12477,7 +12713,7 @@
 		(fields_autoplaced yes)
 		(uuid "068b7ffc-2908-4322-983d-be070ce77999")
 		(property "Reference" "#PWR034"
-			(at 170.18 142.24 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +12722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 140.97 0)
+			(at 166.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +12730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 135.89 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 135.89 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,7 +12748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 135.89 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,6 +15260,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 62.23 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "330b0209-7fe7-4426-8d67-1f78e62c3007")
+		(property "Reference" "#PWR058"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT"
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "546859be-3f26-4075-8b73-764dd73ed7b3")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00-kiml-buzzers:TMB12A03")
 		(at 326.39 49.53 0)
 		(unit 1)
@@ -15376,6 +15678,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 287.02 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36fb5e41-ed20-4624-bb08-bc1096aae36d")
+		(property "Reference" "#PWR060"
+			(at 287.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a8502ff-4052-4f09-8fd5-d7cfd8b70eef")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 129.54 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15442,7 +15811,7 @@
 	)
 	(symbol
 		(lib_id "00-kiml-resistors-smd:100R_0603_RC0603FR-07100RL")
-		(at 179.07 128.27 0)
+		(at 175.26 143.51 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15451,7 +15820,7 @@
 		(dnp no)
 		(uuid "38ade6bf-f563-4920-9072-9e5ec75ee989")
 		(property "Reference" "R17"
-			(at 176.53 126.9999 0)
+			(at 172.72 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15460,7 +15829,7 @@
 			)
 		)
 		(property "Value" "100R_0603_RC0603FR-07100RL"
-			(at 179.07 109.22 0)
+			(at 175.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15469,7 +15838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 180.34 142.24 0)
+			(at 176.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15478,7 +15847,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810231425_YAGEO-RC0603FR-07100RL_C105588.pdf"
-			(at 179.07 128.27 0)
+			(at 175.26 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15856,7 @@
 			)
 		)
 		(property "Description" "Resistor 100mW Thick Film Resistors ±1% 100Ω 0603 Chip Resistor"
-			(at 179.07 128.27 0)
+			(at 175.26 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15865,7 @@
 			)
 		)
 		(property "UserValue" "100R"
-			(at 176.53 129.5399 0)
+			(at 172.72 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15874,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 184.785 128.27 90)
+			(at 180.975 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15883,7 @@
 			)
 		)
 		(property "MFR" "YAGEO"
-			(at 179.07 111.76 0)
+			(at 175.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15523,7 +15892,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100RL"
-			(at 179.07 114.3 0)
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15532,7 +15901,7 @@
 			)
 		)
 		(property "SPL1" "LCSC"
-			(at 179.07 106.68 0)
+			(at 175.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15541,7 +15910,7 @@
 			)
 		)
 		(property "SPN1" "C105588"
-			(at 179.07 116.84 0)
+			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15550,7 +15919,7 @@
 			)
 		)
 		(property "LNK1" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-07100RL_C105588.html"
-			(at 179.07 144.78 0)
+			(at 175.26 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16091,7 +16460,7 @@
 	)
 	(symbol
 		(lib_id "00-kiml-capacitors-smd:100n_0603_TCC0603X7R104K500CT")
-		(at 186.69 135.89 90)
+		(at 182.88 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16099,7 +16468,7 @@
 		(dnp no)
 		(uuid "4902dc6b-7035-420b-aaab-c693af5adb80")
 		(property "Reference" "C9"
-			(at 186.69 139.7 90)
+			(at 182.88 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16107,7 +16476,7 @@
 			)
 		)
 		(property "Value" "100n_0603_TCC0603X7R104K500CT"
-			(at 154.94 151.13 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16117,7 +16486,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 170.18 135.89 0)
+			(at 166.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16126,7 +16495,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810181652_CCTC-TCC0603X7R104K500CT_C282519.pdf"
-			(at 165.1 135.89 0)
+			(at 161.29 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16135,7 +16504,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC"
-			(at 186.69 135.89 0)
+			(at 182.88 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,7 +16513,7 @@
 			)
 		)
 		(property "UserValue" "100n"
-			(at 186.69 142.24 90)
+			(at 182.88 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16152,7 +16521,7 @@
 			)
 		)
 		(property "MFR" "CCTC"
-			(at 167.64 135.89 0)
+			(at 163.83 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +16530,7 @@
 			)
 		)
 		(property "MPN" "TCC0603X7R104K500CT"
-			(at 162.56 135.89 0)
+			(at 158.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,7 +16539,7 @@
 			)
 		)
 		(property "SPL1" "LCSC"
-			(at 207.01 135.89 0)
+			(at 203.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,7 +16548,7 @@
 			)
 		)
 		(property "SPN1" "C307331"
-			(at 210.185 135.89 0)
+			(at 206.375 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16557,7 @@
 			)
 		)
 		(property "LNK1" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0603X7R104K500CT_C282519.html"
-			(at 203.835 136.525 0)
+			(at 200.025 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +16566,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 157.48 135.89 0)
+			(at 153.67 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +16575,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 160.02 135.89 0)
+			(at 156.21 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18837,7 +19206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 124.46 0)
+		(at 182.88 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18846,7 +19215,7 @@
 		(fields_autoplaced yes)
 		(uuid "8535e80b-77b6-4063-a23a-edbe94c0a31e")
 		(property "Reference" "#PWR036"
-			(at 186.69 130.81 0)
+			(at 182.88 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +19224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 129.54 0)
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,7 +19232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 124.46 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18872,7 +19241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 124.46 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18881,7 +19250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 124.46 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19034,6 +19403,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:CK_KMS2xxG")
+		(at 287.02 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cba54b8-69a4-42a1-a73d-f529f1b23a6e")
+		(property "Reference" "SW2"
+			(at 287.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CK_KMS2xxG"
+			(at 287.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(at 287.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(at 287.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+			(at 287.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0101eeb6-6b7f-4f56-a99e-fbf85096571c")
+		)
+		(pin "SH"
+			(uuid "79e54419-d11d-4e44-9f41-394e4a2e96c9")
+		)
+		(pin "2"
+			(uuid "b6f5939e-d066-4f06-9568-c9aded113599")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00-kiml-resistors-smd:0R_0603_0603WAF0000T5E")
 		(at 96.52 184.15 90)
 		(unit 1)
@@ -19149,6 +19590,73 @@
 			(project "BikeLight"
 				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 303.53 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "914b45e4-f4fa-4710-871a-5044ebec136a")
+		(property "Reference" "#PWR059"
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 303.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c6e9a6-530b-461d-89c8-0f49adf39034")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -19647,7 +20155,7 @@
 	)
 	(symbol
 		(lib_id "Switch:CK_KMS2xxG")
-		(at 186.69 120.65 0)
+		(at 182.88 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19656,7 +20164,7 @@
 		(fields_autoplaced yes)
 		(uuid "a48a6e46-98ec-4efc-ac0d-4c7baaf306c8")
 		(property "Reference" "SW1"
-			(at 186.69 113.03 0)
+			(at 182.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19664,7 +20172,7 @@
 			)
 		)
 		(property "Value" "CK_KMS2xxG"
-			(at 186.69 115.57 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19672,7 +20180,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-			(at 186.69 115.57 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19681,7 +20189,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 186.69 115.57 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19690,7 +20198,7 @@
 			)
 		)
 		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 186.69 120.65 0)
+			(at 182.88 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21020,7 +21528,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7e2c9cd-64d8-4e38-86a4-eedd1f87cbea")
 		(property "Reference" "#PWR08"
 			(at 39.37 119.38 0)
@@ -21031,12 +21538,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 39.37 110.49 0)
+		(property "Value" "VOUT"
+			(at 37.084 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -22150,6 +22658,138 @@
 			(project ""
 				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00-kiml-resistors-smd:100R_0603_RC0603FR-07100RL")
+		(at 294.64 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd1892d8-83b7-44b8-961d-2c1d80fbade9")
+		(property "Reference" "R29"
+			(at 297.18 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R_0603_RC0603FR-07100RL"
+			(at 294.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 293.37 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810231425_YAGEO-RC0603FR-07100RL_C105588.pdf"
+			(at 294.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 100mW Thick Film Resistors ±1% 100Ω 0603 Chip Resistor"
+			(at 294.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "100R"
+			(at 297.18 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 288.925 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 294.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 294.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 294.64 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C105588"
+			(at 294.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-07100RL_C105588.html"
+			(at 294.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98b2bf8-cdb5-4616-bfed-4499d1f4f3ce")
+		)
+		(pin "2"
+			(uuid "32058b03-f0e2-4456-8323-b3c7ecae37bb")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -23466,7 +24106,7 @@
 	)
 	(symbol
 		(lib_id "00-kiml-resistors-smd:0R_0603_0603WAF0000T5E")
-		(at 201.93 120.65 90)
+		(at 198.12 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23474,7 +24114,7 @@
 		(dnp no)
 		(uuid "edfca277-d72a-4a4b-b1fd-9d5abbdf18fb")
 		(property "Reference" "R18"
-			(at 201.93 118.11 90)
+			(at 198.12 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23482,7 +24122,7 @@
 			)
 		)
 		(property "Value" "0R_0603_0603WAF0000T5E"
-			(at 179.07 120.65 0)
+			(at 175.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23491,7 +24131,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 120.65 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23500,7 +24140,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
-			(at 168.91 123.19 0)
+			(at 165.1 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23509,7 +24149,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±1% -55℃~+155℃ 0Ω 0603 Chip Resistor"
-			(at 201.93 120.65 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23518,7 +24158,7 @@
 			)
 		)
 		(property "UserValue" "0R"
-			(at 201.93 120.65 90)
+			(at 198.12 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23526,7 +24166,7 @@
 			)
 		)
 		(property "MFR" "UNI-ROYAL"
-			(at 171.45 120.65 0)
+			(at 167.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23535,7 +24175,7 @@
 			)
 		)
 		(property "MPN" "0603WAF0000T5E"
-			(at 181.61 120.65 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23544,7 +24184,7 @@
 			)
 		)
 		(property "SPL1" "C21189"
-			(at 219.71 120.65 0)
+			(at 215.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23553,7 +24193,7 @@
 			)
 		)
 		(property "SPN1" "JLCPCB"
-			(at 217.17 120.65 0)
+			(at 213.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23562,7 +24202,7 @@
 			)
 		)
 		(property "LNK1" "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189"
-			(at 222.25 116.84 0)
+			(at 218.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23781,6 +24421,147 @@
 			(project "BikeLight"
 				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00-kiml-capacitors-smd:100n_0603_TCC0603X7R104K500CT")
+		(at 287.02 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f380049e-0b01-4286-b082-b3cd85119951")
+		(property "Reference" "C12"
+			(at 287.02 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n_0603_TCC0603X7R104K500CT"
+			(at 318.77 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810181652_CCTC-TCC0603X7R104K500CT_C282519.pdf"
+			(at 308.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 287.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "100n"
+			(at 287.02 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "CCTC"
+			(at 306.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TCC0603X7R104K500CT"
+			(at 311.15 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C307331"
+			(at 263.525 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0603X7R104K500CT_C282519.html"
+			(at 269.875 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 316.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "50V"
+			(at 313.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14f15c25-1175-472b-91e3-93f112092c39")
+		)
+		(pin "2"
+			(uuid "5142b7d8-88a7-480b-928a-bf0520a740c2")
+		)
+		(instances
+			(project "BikeLight"
+				(path "/bc4a3ac7-23ef-4452-9888-c2aa5f8e2382"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -24449,7 +25230,7 @@
 	)
 	(sheet
 		(at 158.75 80.01)
-		(size 130.81 101.6)
+		(size 172.72 101.6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
