@@ -37,18 +37,18 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.66,
+          "height": 0.66,
+          "width": 0.66
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.16,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -56,9 +56,31 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.4288
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|187262737|83254819|08241b49-4c4a-4bf0-925f-dbe363877319|e956359b-84f7-4545-9e4c-3fdb8bec6900",
+          ""
+        ],
+        [
+          "silk_overlap|187498809|84754819|bba0466a-8624-4310-affa-831d95627d88|f0564099-bfb1-446d-9475-2c6cdab363e7",
+          ""
+        ],
+        [
+          "silk_overlap|187523809|77022500|793c6f75-1297-4154-8e38-907844ef757f|b0e634cd-e08e-4859-b5b4-efe71d831a35",
+          ""
+        ],
+        [
+          "silk_overlap|188333333|79754819|7c450371-3e9d-424b-99ae-3d7dc04df203|21e3ce48-9ef8-46af-947d-c1b9322f04d1",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,23 +145,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.16,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_track_width": 0.16,
+        "min_via_annular_width": 0.16,
+        "min_via_diameter": 0.3,
+        "solder_mask_to_copper_clearance": 0.16,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -499,9 +521,23 @@
         "microvia_drill": 0.1,
         "name": "3v3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USBC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4288,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -511,14 +547,23 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USBC",
+        "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "USBC",
+        "pattern": "/USB_DN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "BikeLightGerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "BikeLight.step",
@@ -644,46 +689,6 @@
     [
       "bc4a3ac7-23ef-4452-9888-c2aa5f8e2382",
       "Root"
-    ],
-    [
-      "2e59b1bd-6d7e-4095-802b-ce8c175ab9e2",
-      "Charger"
-    ],
-    [
-      "e50c9b36-2257-45ed-9cb7-4301bc3bc384",
-      "Solar Boost"
-    ],
-    [
-      "484819c7-b5d6-40e2-b137-5e27a0d7a21c",
-      "Power Supply"
-    ],
-    [
-      "6bbc0add-5b7e-4fa2-888e-8d0af9c23bd6",
-      "Fuel Gauge"
-    ],
-    [
-      "421b6488-9548-4251-80fe-9a3acec602a2",
-      "Accelerometer"
-    ],
-    [
-      "3c122922-0edb-4366-a1a3-ae617dd04bf6",
-      "RFID"
-    ],
-    [
-      "afb90a27-4c82-46cd-a4b4-5563ab566451",
-      "GPIO-extender"
-    ],
-    [
-      "2d393824-d3b1-420a-8ed4-5edf08f46dff",
-      "USB Programing"
-    ],
-    [
-      "69f618ae-5d9f-477e-bc7f-4fb9b675dee1",
-      "MCU"
-    ],
-    [
-      "f1c933b9-0928-4174-8e0c-70ca48de4262",
-      "Light and buzzer"
     ]
   ],
   "text_variables": {}

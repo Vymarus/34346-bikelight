@@ -1272,7 +1272,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "73c9197b-0f37-4c2e-b3cf-1280970d7293")
 	)
 	(pad "2" thru_hole oval
@@ -1281,7 +1280,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "8a2fbbad-41ce-4f43-a550-7167f491db79")
 	)
 	(pad "3" thru_hole oval
@@ -1290,7 +1288,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "65bb853c-b71a-4d0e-a978-4a9a93565ec2")
 	)
 	(pad "4" thru_hole oval
@@ -1299,7 +1296,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "1cdbe427-d995-4eb8-b89a-ccd44560caec")
 	)
 	(pad "5" thru_hole oval
@@ -1308,7 +1304,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "e062c783-132d-44d7-bb1c-39e33455ba81")
 	)
 	(pad "6" thru_hole oval
@@ -1317,7 +1312,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "b98dc12d-01c4-4f1d-ae50-d389a7c61ebf")
 	)
 	(pad "7" thru_hole oval
@@ -1326,7 +1320,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "bb0740c7-ae61-43cb-b5ca-cf66ea2e5b51")
 	)
 	(pad "8" thru_hole oval
@@ -1335,13 +1328,12 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
 		(uuid "d15769c0-5b1e-429a-a7b3-574f95844541")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/BikeLight3D/RFID_RC522.step"
+	(model "C:/Repo/DTU/34346-bikelight/FreeCad/RFID_RC522.step"
 		(offset
-			(xyz 29 -13 -57.5)
+			(xyz 28.5 -12.5 -48.5)
 		)
 		(scale
 			(xyz 1 1 1)
