@@ -482,7 +482,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Personal_Library"
+      "Personal_Library",
+      "JLC2KICAD_Library"
     ],
     "pinned_symbol_libs": [
       "Personal_Library",

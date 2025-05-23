@@ -13337,6 +13337,16 @@
 		)
 		(uuid "0b0a91d7-14c7-419c-a8b5-67f851b3be58")
 	)
+	(label "USB_DN"
+		(at 205.74 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12931039-2dcd-4c8f-9b7f-6ef61027407c")
+	)
 	(label "SX_MOSI"
 		(at 260.35 130.81 180)
 		(effects
@@ -13347,6 +13357,16 @@
 		)
 		(uuid "2e2db2af-d1db-4f6e-8c1a-aa4e3d63d60e")
 	)
+	(label "USB_DP"
+		(at 205.74 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3075ff41-8328-49d0-a840-943446b6d632")
+	)
 	(label "RF_NSS"
 		(at 201.93 125.73 0)
 		(effects
@@ -13356,6 +13376,16 @@
 			(justify left bottom)
 		)
 		(uuid "3424b63e-898e-4fe9-b1e0-17a2cdd64f72")
+	)
+	(label "SDA"
+		(at 256.54 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "351e973d-7aec-4826-8241-ba19c38a70ea")
 	)
 	(label "RF_NSS"
 		(at 111.76 240.03 0)
@@ -13416,16 +13446,6 @@
 			(justify right bottom)
 		)
 		(uuid "5f5affb2-a1c1-4ff2-b934-63be81e658e0")
-	)
-	(label "SCL"
-		(at 205.74 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6084a1e8-44d0-4ed6-94ff-3f285d6b5919")
 	)
 	(label "USB_DP"
 		(at 289.56 50.8 180)
@@ -13497,16 +13517,6 @@
 		)
 		(uuid "76962b2a-9380-4e0e-ac4a-06a1a86d4ee9")
 	)
-	(label "SDA"
-		(at 205.74 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78b2efb4-e529-4146-ad39-9174f074433c")
-	)
 	(label "~{ALRT}"
 		(at 92.71 176.53 180)
 		(effects
@@ -13526,6 +13536,16 @@
 			(justify left bottom)
 		)
 		(uuid "86742997-7890-414f-87d7-57d678da531f")
+	)
+	(label "SCL"
+		(at 256.54 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a58be9cd-8140-49de-a64c-c7de8db44dda")
 	)
 	(label "IRQ"
 		(at 39.37 255.27 0)
@@ -14436,7 +14456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+		(property "Footprint" "JLC2KICAD_Library:USB-C-SMD_GT-USB-7051A"
 			(at 254 8.89 0)
 			(effects
 				(font
