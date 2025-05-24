@@ -5,9 +5,9 @@
 	(uuid "bc4a3ac7-23ef-4452-9888-c2aa5f8e2382")
 	(paper "A3")
 	(title_block
-		(title "Bikelight")
-		(date "2025-05-21")
-		(company "Group 1")
+		(title "BeamBuddy")
+		(date "2025-05-24")
+		(company "DTU Group 1")
 	)
 	(lib_symbols
 		(symbol "00-kiml-buzzers:TMB12A03"
